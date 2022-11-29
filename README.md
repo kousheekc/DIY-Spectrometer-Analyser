@@ -5,7 +5,7 @@ In this project, I develop a basic app to extract the intensity distribution of 
 
 A picture of the result is attached below.
 
-<img src="media/balance_show_steps.gif">
+<img src="media/result1.png">
 
 ## About The Project
 The basic concept of a spectrometer is that an "unknown" beam of light is flashed onto an optical element that splits the beam of light based on the wavelengths present in the "unknown" beam of light. Each wavelength is deviated a different amount, therefore by measuring the deviation, one can determine the wavelengths present in the "unknown" beam of light, which could potentially provide more information about the source of the beam of light, even if it originated millions of kilometers away.
@@ -50,15 +50,14 @@ Kousheek Chakraborty - kousheekc@gmail.com
 Project Link: [https://github.com/kousheekc/DIY-Spectrometer-Analyser](https://github.com/kousheekc/DIY-Spectrometer-Analyser)
 
 
-### Random BST
+### Analysis 1
 
-<img src="media/unbalanced.png" width=640>
+<img src="media/result1.png" width=640>
 
-### Balanced BST
+### Analysis 2
 
-<img src="media/balanced.png" width=640>
+<img src="media/result2.png" width=640>
 
+### Overview of System
 
-### Dark mode
-
-<img src="media/dark_color_scheme.png" width=640>
+<img src="media/overview.png" width=640>
