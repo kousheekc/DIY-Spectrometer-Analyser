@@ -30,6 +30,10 @@ def main():
                 b_dist.append(b_val)
                 i_dist.append(i_val)
             
+            plt.subplot(2, 1, 1)
+            plt.imshow(frame[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])])
+
+            plt.subplot(2, 1, 2)
             plt.plot(r_dist, color='r', label='red')
             plt.plot(g_dist, color='g', label='green')
             plt.plot(b_dist, color='b', label='blue')
