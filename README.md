@@ -30,20 +30,17 @@ git clone https://github.com/lukasvst/dm-vio.git
 ```
 
 ## Usage
-To run the app open a terminal and navigate to the folder you just cloned and run the following command:
+To run the app, open a terminal and navigate to the folder you just cloned and run the following command:
 ```
 python3 analyser.py
 ```
-Once the app is running the interface is self-explanatory. The features of the app are listed below.
+Once the app is running you should see a window with the video stream from the photoreceptor.
 
-### Features:
-* **Add and delete** individual nodes from the BST
-* **Generate a random BST** of a specific size
-* **Balance** the BST (with the *show steps* option selected the recursive steps of the balancing process are shown)
-* **AVL tree or BST** (with the AVL option selected, the tree self balances everytime a node is added or deleted)
-* **A visual representation** of the tree that updates in realtime.
-* And finally no UI is complete without an inbuilt **dark color scheme** :smiley:
-
+To make an analysis, here are the steps to follow:
+* Flash the spectrometer with a source of light
+* Use the **R** key to crop the image
+* Use the **S** key to get the intensity graph
+* Use the **Q** key to quit the app
 
 ## License
 Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
