@@ -1,10 +1,9 @@
 # DIY Spectrometer Analyser
-Spectrometer Analyser app using python and opencv developed for a low-cost, scratch-built spectrometer.
+A Spectrometer Analyser app using python and opencv developed for a low-cost, scratch-built spectrometer.
 
 In this project, I develop a basic app to extract the intensity distribution of wavelengths emanating from a light source that we would like to study. This is a complement for the low-cost scratch-built spectrometer I designed and built. Detailed build instructions can be found at the following link: [https://www.instructables.com/DIY-Low-Cost-Spectrometer/](https://www.instructables.com/DIY-Low-Cost-Spectrometer/). 
 
 A picture of the result is attached below.
-
 
 <img src="media/balance_show_steps.gif">
 
@@ -48,7 +47,7 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 ## Contact
 Kousheek Chakraborty - kousheekc@gmail.com
 
-Project Link: [https://github.com/kousheekc/Interactive-Visual-Binary-Search-Tree](https://github.com/kousheekc/Interactive-Visual-Binary-Search-Tree)
+Project Link: [https://github.com/kousheekc/DIY-Spectrometer-Analyser](https://github.com/kousheekc/DIY-Spectrometer-Analyser)
 
 
 ### Random BST
