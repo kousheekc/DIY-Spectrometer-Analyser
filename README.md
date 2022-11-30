@@ -25,7 +25,7 @@ To install the Spectrometer Analyser app, install the required librarires and cl
 ```
 pip install opencv-python
 pip install matplotlib
-git clone https://github.com/lukasvst/dm-vio.git
+git clone https://github.com/kousheekc/DIY-Spectrometer-Analyser.git
 ```
 
 ## Usage
