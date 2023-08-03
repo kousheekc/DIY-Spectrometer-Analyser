@@ -20,9 +20,9 @@ def main():
             g_dist = []
             i_dist = []
             for i in range(shape[1]):
-                r_val = np.mean(cropped[:, i][:, 0])
-                b_val = np.mean(cropped[:, i][:, 1])
-                g_val = np.mean(cropped[:, i][:, 2])
+                r_val = np.mean(cropped[:, i][:, 2])
+                b_val = np.mean(cropped[:, i][:, 0])
+                g_val = np.mean(cropped[:, i][:, 1])
                 i_val = (r_val + b_val + g_val) / 3
 
                 r_dist.append(r_val)
@@ -31,7 +31,8 @@ def main():
                 i_dist.append(i_val)
             
             plt.subplot(2, 1, 1)
-            plt.imshow(frame[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])])
+            cropped = frame[int(r[1]):int(r[1]+r[3]), int(r[0]):int(r[0]+r[2])]
+            plt.imshow(cv2.cvtColor(cropped, cv2.COLOR_BGR2RGB))
 
             plt.subplot(2, 1, 2)
             plt.plot(r_dist, color='r', label='red')

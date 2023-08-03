@@ -58,6 +58,10 @@ Project Link: [https://github.com/kousheekc/DIY-Spectrometer-Analyser](https://g
 
 <img src="media/result2.png" width=640>
 
+### Analysis 3
+
+<img src="media/result3.png" width=640>
+
 ### Overview of System
 
 <img src="media/overview.jpg" width=640>
